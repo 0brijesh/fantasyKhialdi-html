@@ -1,0 +1,388 @@
+/* - // _BEGIN > ROOT CSS VARIABLES < SHB // - */
+:root {
+    /* FONTS */
+    --font-primary: 'Mouse Memoirs';
+    --font-secondary: 'Poppins';
+
+    /* THEME COLORS */
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-alpha: #7501AC;
+    --color-bravo: #353535;
+    /* --color-clash: ;
+    --color-delta: ;
+    --color-earth: ;
+    --color-flash: ;
+    --color-galen: ;
+    --color-happy: ;
+    --color-india: ; */
+
+    /* LINK COLORS */
+    --link-color: #FFFFFF;
+    --link-hover: #BBA285;
+
+    /* TEXT SELECTION COLORS */
+    --select-text-foreground: #FFFFFF;
+    --select-text-background: #000000;
+
+    /* CUSTOM SCROLLBAR COLORS */
+    --scrollbar-track: #e2e2e2;
+    --scrollbar-thumb: #a2a2a2;
+    --scrollbar-thumb-hover: #828282;
+}
+
+/* - // _ENDS > ROOT CSS VARIABLES < SHB // - */
+
+/* - // _BEGIN > TYPOGRAPHY < SHB // - */
+@font-face {
+    font-family: 'Mouse Memoirs';
+    src: url('../fonts/MouseMemoirs-Regular.eot');
+    src: url('../fonts/MouseMemoirs-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MouseMemoirs-Regular.woff2') format('woff2'),
+        url('../fonts/MouseMemoirs-Regular.woff') format('woff'),
+        url('../fonts/MouseMemoirs-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.eot');
+    src: url('../fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins-Bold.woff') format('woff'),
+        url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.eot');
+    src: url('../fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.eot');
+    src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* - // _ENDS > TYPOGRAPHY < SHB // - */
+
+
+/* - // _BEGIN > RESET DEFAULT STYLES < SHB // - */
+* {
+    outline: none !important;
+}
+
+*::after,
+*::before,
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.25;
+    font-family: var(--font-primary);
+    background-color: var(--color-white);
+}
+
+/* - // _BEGIN > PSEUDO DEFAULT STYLES < SHB // - */
+::-moz-focus-inner {
+    border: 0 solid transparent;
+}
+
+::-webkit-focus-inner {
+    border: 0 solid transparent;
+}
+
+*::-moz-selection {
+    color: var(--select-text-foreground);
+    background: var(--select-text-background)
+}
+
+*::selection {
+    color: var(--select-text-foreground);
+    background: var(--select-text-background)
+}
+
+*::-moz-selection {
+    color: var(--select-text-foreground);
+    background: var(--select-text-background)
+}
+
+*::-webkit-selection {
+    color: var(--select-text-foreground);
+    background: var(--select-text-background)
+}
+
+/* - // _ENDS > PSEUDO DEFAULT STYLES < SHB // - */
+
+/* - // _BEGIN > TEXTS DEFAULT STYLING < SHB // - */
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-family: var(--font-primary);
+    line-height: 115%;
+    font-weight: bold;
+    margin: 0 0 1rem;
+}
+
+body p {
+    font-family: var(--font-secondary);
+    color: var(--color-bravo);
+    line-height: 170%;
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    padding: 0;
+}
+
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+/* - // _ENDS > TEXTS DEFAULT STYLING < SHB // - */
+
+/* - // _BEGIN > FORM CONTROL STYLES < SHB // - */
+select,
+button,
+a[href],
+label[for],
+input[type="file"],
+input[type='submit'],
+input[type='button'],
+input[type='image'],
+.pointer {
+    cursor: pointer;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: var(--font-secondary);
+}
+
+textarea,
+.resize-none {
+    resize: none;
+}
+
+
+button:focus,
+.button:focus,
+.form-control:focus,
+.form-select:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"]::-moz-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"]::-ms-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"]::-o-file-upload-button {
+    cursor: pointer;
+}
+
+/* - // _ENDS > FORM CONTROL STYLES < SHB // - */
+
+/* - // _BEGIN > BUTTON STYLES < SHB // - */
+.button {
+    line-height: 1.35;
+    color: var(--color-bravo);
+    font-size: 1.125rem;
+    font-weight: normal;
+    padding: .375rem .75rem;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: .25rem;
+    display: inline-block;
+    border: 1px solid;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+/* - // _ENDS > BUTTON STYLES < SHB // - */
+
+/* - // _BEGIN > IMAGE STYLES < SHB // - */
+img {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.cover-image img,
+.contain-image img,
+.cover-image svg,
+.contain-image svg,
+.contain-image video,
+.contain-image iframe {
+    width: 100%;
+    height: inherit;
+    max-height: inherit;
+    min-height: inherit;
+}
+
+.contain-image img,
+.contain-image svg,
+.contain-image video,
+.contain-image iframe {
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.cover-image img,
+.cover-image svg {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* - // _ENDS > IMAGE STYLES < SHB // - */
+
+/* - // _BEGIN > CUSTOM SCROLL STYLES < SHB // - */
+.vertical-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.vertical-scroll::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    width: auto;
+    height: 6px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+    height: 6px;
+}
+
+.vertical-scroll::-webkit-scrollbar-thumb,
+.horizontal-scroll::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 10px;
+}
+
+.vertical-scroll::-webkit-scrollbar-thumb:hover,
+.horizontal-scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}
+
+/* - // _ENDS > CUSTOM SCROLL STYLES < SHB // - */
+
+a {
+    outline: none;
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+a,
+span,
+button,
+div a:hover,
+div a:active,
+div a:focus {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.simple-list,
+footer ul,
+footer ol,
+header ul,
+header ol {
+    list-style: inside none none;
+    margin: 0;
+    padding: 0;
+}
+
+li:after,
+ul:after,
+.container:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+/* - // _ENDS > RESET DEFAULT STYLES < SHB // - */
+
+/* - // _BEGIN > HEADER STYLES < BRJ // - */
+/* - // _ENDS > HEADER STYLES < BRJ // - */
+
+/* - // _BEGIN > FOOTER STYLES < SHB // - */
+/* - // _ENDS > FOOTER STYLES < SHB // - */
+
+/* - // _BEGIN > HERO SECTION STYLES < SHB // - */
+/* - // _ENDS > HERO SECTION STYLES < SHB // - */
+
+/* - // _BEGIN > PLAY FANTASY SECTION STYLES < SHB // - */
+/* - // _ENDS > PLAY FANTASY SECTION STYLES < SHB // - */
+
+/* - // _BEGIN > HOW TO INSTALL SECTION STYLES < SHB // - */
+/* - // _ENDS > HOW TO INSTALL SECTION STYLES < SHB // - */
+
+/* - // _BEGIN > GREAT FEATURE SECTION STYLES < SHB // - */
+/* - // _ENDS > GREAT FEATURE SECTION STYLES < SHB // - */
+
+/* - // _BEGIN > EVENTS SECTION STYLES < SHB // - */
+/* - // _ENDS > EVENTS SECTION STYLES < SHB // - */
+
+/* - // _BEGIN > FANTASY KHILADI SECTION STYLES < SHB // - */
+/* - // _ENDS > FANTASY KHILADI SECTION STYLES < SHB // - */
+
+/* - // _BEGIN > FAQ WITH PARTNER SECTION STYLES < SHB // - */
+/* - // _ENDS > FAQ WITH PARTNER SECTION STYLES < SHB // - */
