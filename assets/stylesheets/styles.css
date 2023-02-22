@@ -156,7 +156,7 @@ body p {
     color: var(--color-bravo);
     line-height: 170%;
     margin: 0 0 1rem;
-    font-size: 1rem;
+    font-size: 26px;
     padding: 0;
 }
 
@@ -358,12 +358,199 @@ ul:after,
     content: "";
 }
 
+
+.container {
+    width: 100%;
+    /* max-width: 1632px; */
+    padding: 0 12px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+.d-align-justify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.active-page{
+    color: #F8D224;
+}
+.d-align{
+    display: flex;
+    align-items: center;
+}
+.ms-auto{
+    margin-left: auto;
+}
 /* - // _ENDS > RESET DEFAULT STYLES < SHB // - */
 
 /* - // _BEGIN > HEADER STYLES < BRJ // - */
+header{
+    padding: 18px 0;
+    background-color: var(--color-alpha);
+    box-shadow: 0px 4px 7px rgb(0 0 0 / 10%);
+    position: sticky;
+    top: 0;
+    z-index: 40;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+.header-menu-ul a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+}
+header ul li:not(:last-child) a{
+    margin-right: 60px;
+}
+.header-logo{
+    max-width: 250px;
+}
+.mobile-menu-wrap {
+    width: 300px;
+    height: 100vh;
+    overflow-y: auto;
+    background: rgb(0,126,214);
+    background: linear-gradient(0deg, rgba(0,126,214,1) 0%, rgba(255,165,47,1) 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transform: translateX(-768px);
+    padding: 50px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 1s;
+}
+.mobile-menu-wrap-show {
+    transform: translateX(0);
+    transition: all 0.7s;
+}
+.mobile-menu-wrap li:not(:last-child) {
+    margin-bottom: 40px;
+}
+.mobile-menu-wrap .close-ico {
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-white);
+    color: var(--secondary-color);
+    border-radius: 100%;
+    position: relative;
+    top: -30px;
+    right: 0px;
+    transition: all 0.3s;
+}
+.mobile-menu-wrap .close-ico:hover{
+    background-color: var(--color-alpha);
+}
+.mobile-menu-wrap .close-ico:hover svg{
+    fill: var(--color-white);
+}
+.mobile-menu-wrap li a {
+    color: var(--color-white);
+}
+header.fixed {
+    background-color: var(--color-black);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s;
+  }
 /* - // _ENDS > HEADER STYLES < BRJ // - */
 
 /* - // _BEGIN > FOOTER STYLES < SHB // - */
+footer{
+    background-color: var(--color-white);
+    padding: 50px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 100px;
+}
+.footer-row{
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-gap: 50px;
+}
+.footer-left-col{
+    width: 33.33%;
+}
+.footer-right-col{
+    width: 66.66%;
+    display: flex;
+}
+.footer-right-col .footer-col{
+    width: calc(100% / 3);
+}
+.footer-col p{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    color: var(--color-black);
+    margin-top: 15px;
+}
+.footer-col h6{
+    font-weight: 600;
+    font-size: 19px;
+    color: var(--color-alpha);
+    line-height: 34px;
+    font-family: var(--font-secondary);
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+.footer-col .footer-link li a{
+    color: var(--color-black);
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-secondary);
+    transition: all 0.5s;
+}
+.footer-col .footer-link li:not(:last-child){
+    padding-bottom: 15px;
+}
+.hover-text{
+    transition: all 0.3s;
+}
+.hover-text:hover{
+    color: var(--color-alpha) !important;
+}
+footer .social-links{
+    grid-gap: 15px;
+}
+footer .social-links img{
+    max-width: 35px;
+}
+/* /* - // _ENDS > SUB FOOTER STYLES < SHB // - */
+.sub-footer-section{
+    background-color: var(--color-alpha);
+    padding: 35px 0;
+}
+.sub-footer-section h5{
+    color: var(--color-white);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: var(--font-secondary);
+    margin-bottom: 30px;
+}
+.sub-footer-section p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #EDC9FF;
+    font-family: var(--font-secondary);
+    margin-bottom: 0;
+}
+.text-center{
+    text-align: center;
+}
+/* /* - // _ENDS > SUB FOOTER STYLES < SHB // - */
 /* - // _ENDS > FOOTER STYLES < SHB // - */
 
 /* - // _BEGIN > HERO SECTION STYLES < SHB // - */
