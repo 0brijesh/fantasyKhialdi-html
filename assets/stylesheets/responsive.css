@@ -23,11 +23,49 @@
         max-width: 1580px;
     }
 }
-@media only screen and (max-width: 1799px) {}
+@media only screen and (max-width: 1799px) {
+    /* brij start */
+    .play-fantasy-swiper-description-box{
+        padding: 20px 20px 15px;
+    }
+    /* brij end */
+}
 
 @media only screen and (max-width: 1599px) {
     .header-menu-ul a{
         font-size: 18px;
+    }
+    /* brij start */
+    .play-fantasy-img-box {
+        height: 256px;
+    }
+    .fank-section-sub-title{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .play-fantasy-swiper-description-box p{
+        -webkit-line-clamp: 5;
+        font-size: 14px;
+    }
+    .play-fantasy-swiper-description-box{
+        padding: 20px 20px 15px;
+    }
+    .play-fantasy-play-ico-box {
+        height: 80px;
+        width: 80px;
+    }
+    .play-fantasy-play-ico-box svg{
+        width: 40px;
+        height: 40px;
+    }
+    .play-fantasy-title h3{
+        font-size: 22px;
+    }
+    .play-fantasy-swiper-box{
+        border-radius: 30px;
+    }
+    .play-fantasy-img-box{
+        border-radius: 30px 30px 0px 0px;
     }
     .footer-row{
         grid-gap: 30px;
@@ -38,6 +76,11 @@
     .footer-col .footer-link li:not(:last-child) {
         padding-bottom: 10px;
     }
+    .fank-section-title{
+        font-size: 50px;
+        line-height: inherit;
+    }
+    /* brij end */
 }
 
 @media only screen and (max-width: 1439px) {}
@@ -53,9 +96,23 @@
     .header-logo {
         max-width: 200px;
     }
-    .header-menu-ul a,.footer-col h6 {
+    .header-menu-ul a {
         font-size: 16px;
     }
+    /* brij start */
+    .footer-col h6 {
+        font-size: 16px;
+    }
+    .play-fantasy-section{
+        padding: 30px 0 50px;
+    }
+    .play-fantasy-swiper {
+        margin-top: 40px;
+    }
+   .fank-section-sub-title{
+    font-size: 16px;
+   }
+    /* brij end */
 }
 
 @media only screen and (max-width: 1023px) {}
@@ -63,6 +120,7 @@
     header ul li:not(:last-child) a {
         margin-right: 20px;
     }
+    /* brij start */
     .footer-row{
         flex-wrap: wrap;
     }
@@ -75,6 +133,7 @@
    .footer-logo{
     max-width: 250px;
    }
+    /* brij end */
 }
 @media only screen and (min-width: 768px) {
     .mobile-menu-ico,.mobile-menu-wrap{
@@ -85,7 +144,8 @@
 @media only screen and (max-width: 767px) {
     header ul{
         display: none;
-    }  
+    }
+     /* brij start */
     footer .social-links {
         grid-gap: 10px;
     } 
@@ -95,9 +155,12 @@
     .sub-footer-section{
         padding: 30px 0;
     }
+    .fank-section-title{
+        font-size: 30px;
+    }
+     /* brij end */
 }
-
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
     .footer-right-col{
         flex-wrap: wrap;
     }
@@ -126,6 +189,40 @@
     .footer-col p,.footer-col .footer-link li a{
         font-size: 14px;
     }
+    /* brij start */
+    .play-fantasy-swiper-box{
+        border-radius: 20px;
+    }
+    .play-fantasy-img-box{
+        border-radius: 20px 20px 0px 0px;
+    }
+    .play-fantasy-img-box {
+        height: 210px;
+    }
+    .play-fantasy-play-ico-box {
+        height: 50px;
+        width: 50px;
+    }
+    .play-fantasy-play-ico-box svg {
+        width: 30px;
+        height: 30px;
+    }
+    .play-fantasy-swiper-description-box {
+        padding: 15px;
+        min-height: 275px;
+    }
+    .play-fantasy-title h3 {
+        font-size: 18px;
+    }
+    .play-fantasy-swiper-description-box p {
+        -webkit-line-clamp: 7;
+        font-size: 14px;
+    }
+    .fank-section-sub-title{
+        font-size: 14px;
+        line-height: 25px;
+       }
+    /* brij end */
 }
 
 @media only screen and (max-width: 481px) {}
