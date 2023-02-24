@@ -112,6 +112,30 @@
     line-height: inherit;
   }
   /* brij end */
+  /* brij 0 start */
+  .quote-container h5{
+    font-size: 19px;
+    margin-top: 20px;
+  }
+  .quote-container-winner-wrap h4{
+    font-size: 22px;
+  }
+  .quote-container p{
+    font-size: 16px;
+  }
+
+.quote-container-winner-wrap{
+    padding: 24px 52px 47px;
+}
+  .why-we-love-fk-review .swiper-arrow {
+    width: 40px;
+    height: 40px;
+  }
+  .why-we-love-fk-review .swiper-arrow svg {
+    width: 25px;
+    height: 25px;
+  }
+  /* brij 0 end */
 }
 
 @media only screen and (max-width: 1439px) {
@@ -133,6 +157,16 @@
   }
 
   /* _ENS > RESPONSIVE STYLES < SHB */
+  /* brij 0 start */
+  .quote-container-winner-wrap h4{
+    font-size: 18px;
+  }
+  .quote-container p{
+    font-size: 14px;
+    padding: 0;
+    margin-top: 0;
+  }
+  /* brij 0 end */
 }
 
 @media only screen and (max-width: 1365px) {
@@ -384,6 +418,11 @@
     font-size: 30px;
   }
   /* brij end */
+  /* brij 0 start */
+  .quote-container{
+    padding: 20px 18px;
+  }
+  /* brij 0 end */
 }
 
 @media only screen and (max-width: 575px) {
@@ -462,8 +501,25 @@
     line-height: 25px;
   }
   /* brij end */
+  /* brij 0 start */
+  .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 0;
+  }
+  .why-we-love-fk-review .swiper-button-next, .why-we-love-fk-review .swiper-rtl .swiper-button-prev{
+    right: 0;
+  }
+  .quote-container-winner-wrap{
+    padding: 25px 52px 47px;
+  }
+  /* brij 0 end */
 }
-
+  /* brij 0 start */
+@media (max-width: 400px){
+    .quote-container-winner-wrap{
+        padding: 27px 52px 47px;
+      }
+}
+  /* brij 0 end */
 @media only screen and (max-width: 481px) {
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   /* _ENS > RESPONSIVE STYLES < SHB */
@@ -472,6 +528,15 @@
 @media only screen and (max-width: 351px) {
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   /* _ENS > RESPONSIVE STYLES < SHB */
+  /* brij 0 start */
+  .quote-container-winner-wrap h4 {
+    font-size: 16px;
+    }
+    .quote-container-winner-wrap{
+        padding: 30px 52px 47px;
+    }
+  /* brij 0 end */
+
 }
 
 @media only screen and (max-width: 320px) {
