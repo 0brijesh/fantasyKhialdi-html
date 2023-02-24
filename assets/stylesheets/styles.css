@@ -37,8 +37,7 @@
 @font-face {
   font-family: "Mouse Memoirs";
   src: url("../fonts/MouseMemoirs-Regular.eot");
-  src: url("../fonts/MouseMemoirs-Regular.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("../fonts/MouseMemoirs-Regular.eot?#iefix") format("embedded-opentype"),
     url("../fonts/MouseMemoirs-Regular.woff2") format("woff2"),
     url("../fonts/MouseMemoirs-Regular.woff") format("woff"),
     url("../fonts/MouseMemoirs-Regular.ttf") format("truetype");
@@ -472,11 +471,9 @@ header ul li:not(:last-child) a {
   height: 100vh;
   overflow-y: auto;
   background: rgb(0, 126, 214);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 126, 214, 1) 0%,
-    rgba(255, 165, 47, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(0, 126, 214, 1) 0%,
+      rgba(255, 165, 47, 1) 100%);
   position: fixed;
   top: 0;
   left: 0;
@@ -521,7 +518,7 @@ header ul li:not(:last-child) a {
 }
 
 header.fixed {
-  /* background-color: var(--color-black); */
+  background-color: var(--color-black);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all 0.3s;
 }
@@ -774,19 +771,23 @@ footer .social-links img {
   min-height: 600px;
   padding: 80px 0;
 }
+
 .play-fantasy-section .fank-section-title {
   max-width: 500px;
   margin: 0 auto 15px;
 }
+
 .play-fantasy-section .fank-section-title span {
   color: #3ac1cd;
 }
+
 .play-fantasy-swiper-box {
   background-color: var(--color-white);
   height: 100%;
   border-radius: 58px;
   text-align: center;
 }
+
 .play-fantasy-img-box {
   background-position: center;
   background-repeat: no-repeat;
@@ -796,18 +797,23 @@ footer .social-links img {
   height: 356px;
   transition: all 0.3s;
 }
+
 .play-fantasy-img-title {
   background-image: url(./../images/cover-images/service-img-1.png);
 }
+
 .play-fantasy-img-classic {
   background-image: url(./../images/cover-images/service-img-2.png);
 }
+
 .play-fantasy-img-popular {
   background-image: url(./../images/cover-images/service-img-3.png);
 }
+
 .play-fantasy-img-crush-mode {
   background-image: url(./../images/cover-images/service-img-4.png);
 }
+
 .play-fantasy-play-ico-box {
   height: 90px;
   width: 90px;
@@ -815,19 +821,24 @@ footer .social-links img {
   border-radius: 100%;
   transition: all 0.3s;
 }
+
 .play-fantasy-swiper-box:hover .play-fantasy-play-ico-box {
   background-color: var(--color-black);
 }
+
 .play-fantasy-swiper-box .play-fantasy-play-ico-box:hover {
   background-color: #353535;
 }
+
 .play-fantasy-swiper-description-box {
   padding: 20px 50px 35px;
   min-height: 245px;
 }
+
 .play-fantasy-title img {
   margin: 0 20px 0 0;
 }
+
 .play-fantasy-title h3 {
   font-weight: 600;
   font-size: 32px;
@@ -836,6 +847,7 @@ footer .social-links img {
   color: #543bc3;
   text-shadow: 0px 1px 4px rgb(0 0 0 / 25%);
 }
+
 .play-fantasy-swiper-description-box p {
   font-weight: 400;
   font-size: 16px;
@@ -848,12 +860,15 @@ footer .social-links img {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .play-fantasy-swiper {
   margin-top: 60px;
 }
+
 .play-fantasy-ttile-crush-img {
   max-width: 62px;
 }
+
 /* - // _ENDS > PLAY FANTASY SECTION STYLES < SHB // - */
 
 /* - // _BEGIN > HOW TO INSTALL SECTION STYLES < SHB // - */
@@ -907,7 +922,7 @@ footer .social-links img {
   flex-direction: column;
 }
 
-p.fank-installation-steps-digit {
+.fank-installation-steps-digit {
   font-weight: 600;
   font-size: 23px;
   line-height: 34px;
@@ -916,7 +931,7 @@ p.fank-installation-steps-digit {
   margin-bottom: 13px;
 }
 
-p.fank-installation-steps-desc {
+.fank-installation-steps-desc {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -951,7 +966,7 @@ p.fank-installation-steps-desc {
   justify-content: flex-end;
 }
 
-.fank-installation-action-group > a {
+.fank-installation-action-group>a {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -959,17 +974,17 @@ p.fank-installation-steps-desc {
   font-family: var(--font-secondary);
 }
 
-.fank-installation-action-group > a:hover,
-.fank-installation-action-group > a:active {
+.fank-installation-action-group>a:hover,
+.fank-installation-action-group>a:active {
   text-decoration: underline;
 }
 
-.fank-installation-action-group > a:nth-child(1) {
+.fank-installation-action-group>a:nth-child(1) {
   margin-right: 30px;
   color: #e36b6b;
 }
 
-.fank-installation-action-group > a:nth-child(2) {
+.fank-installation-action-group>a:nth-child(2) {
   color: #29e119;
 }
 
@@ -1066,14 +1081,6 @@ p.fank-installation-steps-desc {
 /* - // _ENDS > EVENTS SECTION STYLES < SHB // - */
 
 /* - // _BEGIN > FANTASY KHILADI SECTION STYLES < SHB // - */
-.why-we-love-fantasy-khildai-section{
-  background-color: #faf5ff;
-  background-image: url(../images/backgrounds/ribin-cover.png);
-  padding: 80px 0;
-}
-.why-we-love-fantasy-khildai-section .fank-section-title span {
-  color: #3ac1cd;
-}
 /* - // _ENDS > FANTASY KHILADI SECTION STYLES < SHB // - */
 
 /* - // _BEGIN > FAQ WITH PARTNER SECTION STYLES < SHB // - */
@@ -1212,7 +1219,7 @@ p.fank-installation-steps-desc {
   -moz-user-select: none;
 }
 
-.fank-accordion.active + .panel {
+.fank-accordion.active+.panel {
   padding: 18px 18px;
   border-top: 1px solid #e6e6e6;
 }
@@ -1236,6 +1243,7 @@ p.fank-installation-steps-desc {
   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
   z-index: 99;
 }
+
 .modal-content {
   position: absolute;
   top: 50%;
@@ -1246,6 +1254,7 @@ p.fank-installation-steps-desc {
   width: 24rem;
   border-radius: 0.5rem;
 }
+
 .close-button {
   width: 30px;
   height: 30px;
@@ -1256,35 +1265,51 @@ p.fank-installation-steps-desc {
   top: -40px;
   right: 0;
 }
+
 .close-button:hover {
   background-color: var(--color-black);
 }
+
 .show-modal {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
   transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
+
 .play-fantasy-modal .modal-content {
   max-width: 600px;
   width: 100%;
   height: auto;
 }
+
 .play-fantasy-modal-body {
   height: 400px;
 }
+
 .w-100 {
   width: 100%;
 }
+
 .h-100 {
   height: 100%;
 }
+
 .d-none {
   display: none;
 }
+
 /* PLAY FANTASY SECTION MODAL // */
 
 /* // _BEGIN > WHY WE LOVE FANTASY KHILADI < SHB */
+.why-we-love-fantasy-khildai-section{
+  background-color: #faf5ff;
+  background-image: url(../images/backgrounds/ribin-cover.png);
+  padding: 80px 0;
+}
+.why-we-love-fantasy-khildai-section .fank-section-title span {
+  color: #3ac1cd;
+}
 .why-we-love-fantasy-khildai-review-wrap .swiper-container {
   position:relative;
   width: 100%;

@@ -29,15 +29,18 @@
 }
 
 @media only screen and (max-width: 1799px) {
+
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   .fank-section-sub-title {
     font-size: 26px;
   }
+
   /* _ENS > RESPONSIVE STYLES < SHB */
   /* brij start */
   .play-fantasy-swiper-description-box {
     padding: 20px 20px 15px;
   }
+
   /* brij end */
 }
 
@@ -70,47 +73,57 @@
   .play-fantasy-img-box {
     height: 256px;
   }
+
   .fank-section-sub-title {
     font-size: 20px;
-    line-height: 35px;
   }
+
   .play-fantasy-swiper-description-box p {
     -webkit-line-clamp: 5;
     font-size: 14px;
   }
+
   .play-fantasy-swiper-description-box {
     padding: 20px 20px 15px;
   }
+
   .play-fantasy-play-ico-box {
     height: 80px;
     width: 80px;
   }
+
   .play-fantasy-play-ico-box svg {
     width: 40px;
     height: 40px;
   }
+
   .play-fantasy-title h3 {
     font-size: 22px;
   }
+
   .play-fantasy-swiper-box {
     border-radius: 30px;
   }
+
   .play-fantasy-img-box {
     border-radius: 30px 30px 0px 0px;
   }
-  .footer-row {
+
+  .footer-row{
     grid-gap: 30px;
-  }
-  .footer-col .footer-link li a {
+}
+.footer-col .footer-link li a{
     font-size: 16px;
-  }
-  .footer-col .footer-link li:not(:last-child) {
+}
+.footer-col .footer-link li:not(:last-child) {
     padding-bottom: 10px;
-  }
+}
+
   .fank-section-title {
     font-size: 50px;
     line-height: inherit;
   }
+
   /* brij end */
   /* brij 0 start */
   .quote-container h5{
@@ -139,6 +152,7 @@
 }
 
 @media only screen and (max-width: 1439px) {
+
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   .fank-section-title {
     font-size: 60px;
@@ -157,8 +171,8 @@
   }
 
   /* _ENS > RESPONSIVE STYLES < SHB */
-  /* brij 0 start */
-  .quote-container-winner-wrap h4{
+   /* brij 0 start */
+   .quote-container-winner-wrap h4{
     font-size: 18px;
   }
   .quote-container p{
@@ -170,6 +184,7 @@
 }
 
 @media only screen and (max-width: 1365px) {
+
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   .fank-feature-grid-wrapper {
     grid-template-columns: repeat(2, 1fr);
@@ -242,20 +257,25 @@
   /* brij start */
   .footer-col h6 {
     font-size: 16px;
-  }
+}
+
   .play-fantasy-section {
     padding: 30px 0 50px;
   }
+
   .play-fantasy-swiper {
     margin-top: 40px;
   }
+
   .fank-section-sub-title {
-    font-size: 16px;
+    font-size: 22px;
   }
+
   /* brij end */
 }
 
 @media only screen and (max-width: 1023px) {
+
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   .fank-download-stats-section {
     --download-items-padding: 40px;
@@ -270,6 +290,10 @@
   }
 
   /* _BEGIN > RESPONSIVE STYLES < SHB */
+  .fank-installation-steps-desc {
+    max-width: 100%;
+  }
+
   .fank-hero-wrapper {
     grid-template-columns: repeat(1, 1fr);
     padding: 50px 0;
@@ -306,23 +330,24 @@
 
   /* _ENS > RESPONSIVE STYLES < SHB */
   /* brij start */
-  .footer-row {
+  .footer-row{
     flex-wrap: wrap;
-  }
-  .footer-left-col,
-  .footer-right-col {
+}
+.footer-left-col,.footer-right-col {
     width: 100%;
-  }
-  footer {
+}
+footer{
     padding: 30px 0;
-  }
-  .footer-logo {
-    max-width: 250px;
-  }
+}
+.footer-logo{
+max-width: 250px;
+}
+
   /* brij end */
 }
 
 @media only screen and (min-width: 768px) {
+
   .mobile-menu-ico,
   .mobile-menu-wrap {
     display: none;
@@ -338,6 +363,17 @@
   }
 
   /* _BEGIN > RESPONSIVE STYLES < SHB */
+  .fank-hero-heading {
+    font-size: 60px;
+  }
+
+  .fank-hero-description {
+    font-size: 22px;
+  }
+
+  .fank-section-title {
+    font-size: 54px;
+  }
 
   .download-stats-text,
   .fank-download-link-group p {
@@ -363,7 +399,7 @@
   }
 
   .fank-section-sub-title {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .fank-installation-steps-card,
@@ -407,25 +443,57 @@
   /* brij start */
   footer .social-links {
     grid-gap: 10px;
-  }
-  .sub-footer-section h5 {
+} 
+.sub-footer-section h5{
     margin-bottom: 20px;
-  }
-  .sub-footer-section {
+}
+.sub-footer-section{
     padding: 30px 0;
-  }
+}
+
+  /* 
   .fank-section-title {
     font-size: 30px;
-  }
+  } */
+
   /* brij end */
-  /* brij 0 start */
-  .quote-container{
+   /* brij 0 start */
+   .quote-container{
     padding: 20px 18px;
   }
   /* brij 0 end */
 }
 
 @media only screen and (max-width: 575px) {
+  .footer-right-col{
+    flex-wrap: wrap;
+}
+.footer-right-col .footer-col {
+    width: calc(100% / 2);
+}
+.social-links-col{
+    margin-top: 20px;
+}
+.sub-footer-section {
+    padding: 20px 0;
+}
+.sub-footer-section h5{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.sub-footer-section p{
+    font-size: 12px;
+}
+.footer-col h6{
+    margin-bottom: 10px;
+}
+.footer-row {
+    grid-gap: 0px;
+}
+.footer-col p,.footer-col .footer-link li a{
+    font-size: 14px;
+}
+
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   .fank-download-stats-section {
     --download-items-padding: 20px;
@@ -471,35 +539,44 @@
   .play-fantasy-swiper-box {
     border-radius: 20px;
   }
+
   .play-fantasy-img-box {
     border-radius: 20px 20px 0px 0px;
   }
+
   .play-fantasy-img-box {
     height: 210px;
   }
+
   .play-fantasy-play-ico-box {
     height: 50px;
     width: 50px;
   }
+
   .play-fantasy-play-ico-box svg {
     width: 30px;
     height: 30px;
   }
+
   .play-fantasy-swiper-description-box {
     padding: 15px;
     min-height: 275px;
   }
+
   .play-fantasy-title h3 {
     font-size: 18px;
   }
+
   .play-fantasy-swiper-description-box p {
     -webkit-line-clamp: 7;
     font-size: 14px;
   }
-  .fank-section-sub-title {
+
+  /* .fank-section-sub-title {
     font-size: 14px;
     line-height: 25px;
-  }
+  } */
+
   /* brij end */
   /* brij 0 start */
   .swiper-button-prev, .swiper-rtl .swiper-button-next{
@@ -513,33 +590,117 @@
   }
   /* brij 0 end */
 }
+
+@media only screen and (max-width: 480px) {
+
+  /* _BEGIN > RESPONSIVE STYLES < SHB */
+  .fank-feature-grid-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 70px 0;
+  }
+
+  .download-stats-text,
+  .fank-download-link-group p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .fank-download-stats {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fank-download-stats:nth-child(1) {
+    padding: 0 var(--download-items-padding);
+  }
+
+  .fank-download-stats:nth-child(2) {
+    padding: 0 0 0 var(--download-items-padding);
+  }
+
+  .fank-hero-heading,
+  .fank-section-title {
+    font-size: 50px;
+  }
+
+  .fank-hero-description {
+    font-size: 20px;
+  }
+
+  .fank-section-sub-title {
+    font-size: 19px;
+  }
+
+  .fank-feature-title {
+    font-size: 28px;
+  }
+
+  .fank-feature-details {
+    font-size: 18px;
+  }
+
+  .fank-feature-logo {
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    padding: 35px;
+  }
+
+  .fank-brand-section:before,
+  .fank-brand-section:after {
+    -webkit-clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);
+  }
+
+  .fank-brand-flex-header .fank-section-title {
+    line-height: 1;
+  }
+
+  .fank-brand-placeholder {
+    max-width: 130px;
+  }
+
+  .fank-brand-section {
+    margin-bottom: 200px;
+  }
+
+  .fank-faq-section {
+    padding: 30px 0;
+  }
+
+  .fank-faq-section .fank-section-title {
+    margin-bottom: 30px;
+  }
+
+  .fank-accordion {
+    padding: 14px 40px 14px 14px;
+    font-size: 18px;
+  }
+
+  .fank-accordion.active+.panel {
+    padding: 14px 14px;
+  }
+
+  /* _ENS > RESPONSIVE STYLES < SHB */
+}
   /* brij 0 start */
-@media (max-width: 400px){
+  @media (max-width: 400px){
     .quote-container-winner-wrap{
         padding: 27px 52px 47px;
       }
 }
   /* brij 0 end */
-@media only screen and (max-width: 481px) {
-  /* _BEGIN > RESPONSIVE STYLES < SHB */
-  /* _ENS > RESPONSIVE STYLES < SHB */
-}
-
 @media only screen and (max-width: 351px) {
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   /* _ENS > RESPONSIVE STYLES < SHB */
-  /* brij 0 start */
-  .quote-container-winner-wrap h4 {
-    font-size: 16px;
-    }
-    .quote-container-winner-wrap{
-        padding: 30px 52px 47px;
-    }
-  /* brij 0 end */
-
-}
-
-@media only screen and (max-width: 320px) {
-  /* _BEGIN > RESPONSIVE STYLES < SHB */
-  /* _ENS > RESPONSIVE STYLES < SHB */
+    /* brij 0 start */
+    .quote-container-winner-wrap h4 {
+      font-size: 16px;
+      }
+      .quote-container-winner-wrap{
+          padding: 30px 52px 47px;
+      }
+    /* brij 0 end */
 }
