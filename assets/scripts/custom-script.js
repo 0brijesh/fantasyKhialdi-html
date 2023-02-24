@@ -96,3 +96,24 @@ trigger.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
 // _BEGIN > PLAY FANTASY SECTION MODAL < SHB -->
+
+// _BEGIN > BUTTON HOVER EFFECT < SH
+
+// _ENDS > BUTTON HOVER EFFECT < SHB
+
+// _BEGIN > ACCORDION SCRIPT < SHB
+var acc = document.getElementsByClassName("fank-accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+// _ENDS > ACCORDION SCRIPT < SHB

@@ -18,8 +18,8 @@
     --color-india: ; */
 
   /* LINK COLORS */
-  --link-color: #ffffff;
-  --link-hover: #bba285;
+  --link-color: #7501ac;
+  --link-hover: #ff2979;
 
   /* TEXT SELECTION COLORS */
   --select-text-foreground: #ffffff;
@@ -135,18 +135,22 @@ body {
   color: var(--select-text-foreground);
   background: var(--select-text-background);
 }
+
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
+
 .img-cover {
   width: inherit;
   height: inherit;
   object-fit: cover;
 }
+
 .mb-0 {
   margin-bottom: 0;
 }
+
 /* - // _ENDS > PSEUDO DEFAULT STYLES < SHB // - */
 
 /* - // _BEGIN > TEXTS DEFAULT STYLING < SHB // - */
@@ -353,6 +357,7 @@ footer ul,
 footer ol,
 header ul,
 header ol {
+  font-family: var(--font-secondary);
   list-style: inside none none;
   margin: 0;
   padding: 0;
@@ -409,14 +414,14 @@ li {
 .fank-section-title {
   font-weight: 400;
   font-size: 67px;
-  line-height: 77px;
+  line-height: 115%;
   color: #7701ae;
 }
 
 .fank-section-sub-title {
   font-weight: 400;
-  font-size: 26px;
-  line-height: 45px;
+  font-size: 30px;
+  line-height: 1.5;
   color: #353535;
   margin-bottom: 0;
 }
@@ -444,6 +449,14 @@ header ul {
   line-height: 32px;
   text-transform: uppercase;
   font-family: var(--font-secondary);
+  color: var(--color-white);
+}
+
+.header-menu-ul a:hover,
+.header-menu-ul a:active,
+.header-menu-ul a:focus,
+.header-menu-ul a.active-page {
+  color: #f8d224;
 }
 
 header ul li:not(:last-child) a {
@@ -508,7 +521,7 @@ header ul li:not(:last-child) a {
 }
 
 header.fixed {
-  background-color: var(--color-black);
+  /* background-color: var(--color-black); */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all 0.3s;
 }
@@ -633,7 +646,7 @@ footer .social-links img {
 .fank-hero-wrapper {
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 16px;
   padding: 68px 0;
 }
@@ -646,7 +659,7 @@ footer .social-links img {
 .fank-hero-heading {
   font-weight: 400;
   font-size: 78px;
-  line-height: 89px;
+  line-height: 115%;
   color: var(--color-white);
   display: flex;
   flex-direction: column;
@@ -660,7 +673,7 @@ footer .social-links img {
 .fank-hero-description {
   font-weight: 400;
   font-size: 26px;
-  line-height: 39px;
+  line-height: 1.5;
   color: #f2d5ff;
   width: 100%;
   max-width: 610px;
@@ -675,10 +688,12 @@ footer .social-links img {
   font-size: 25px;
   line-height: 1;
   color: #7701ae;
-  display: inline-block;
-  border: none;
+  position: relative;
+  display: block;
+  overflow: hidden;
   width: 100%;
   max-width: 300px;
+  border: none;
 }
 
 /* - // _ENDS > HERO SECTION STYLES < SHB // - */
@@ -740,7 +755,7 @@ footer .social-links img {
 .fank-download-link-group p {
   font-weight: 400;
   font-size: 26px;
-  line-height: 39px;
+  line-height: 1.5;
   color: #7301a8;
   font-family: var(--font-secondary);
   display: flex;
@@ -861,6 +876,11 @@ footer .social-links img {
   color: #4894ef;
 }
 
+.fank-installation-section .fank-section-sub-title {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .fank-installation-steps-grid {
   margin-top: 55px;
   display: grid;
@@ -868,11 +888,11 @@ footer .social-links img {
   grid-gap: 25px;
 }
 
-.fank-instalaion-steps-column {
+.fank-installation-steps-column {
   height: 100%;
 }
 
-.fank-instalaion-steps-card {
+.fank-installation-steps-card {
   background: linear-gradient(180deg, #f4e6ff 0%, #bff4ff 100%);
   border-radius: 24px;
   padding: 26px;
@@ -880,7 +900,7 @@ footer .social-links img {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .fank-installation-steps-numbering {
@@ -920,6 +940,10 @@ p.fank-installation-steps-desc {
   color: #353535;
   text-align: left;
   margin-bottom: 20px;
+}
+
+.fank-installation-steps-info-card p .break-all {
+  word-break: break-all;
 }
 
 .fank-installation-action-group {
@@ -962,18 +986,17 @@ p.fank-installation-steps-desc {
   position: relative;
 }
 
-.fank-feature-section .fank-section-title {
-  text-align: center;
-  margin-bottom: 58px;
+.fank-feature-header {
+  margin-bottom: 80px;
 }
 
-.fank-section-title {
-  font-weight: 400;
-  font-size: 67px;
-  line-height: 77px;
-  color: #7701ae;
+.fank-feature-section .fank-section-title {
   text-align: center;
-  margin-bottom: 86px;
+}
+
+.fank-feature-section .fank-section-sub-title {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .fank-feature-grid-wrapper {
@@ -997,6 +1020,7 @@ p.fank-installation-steps-desc {
   position: relative;
   margin: 0 auto;
   z-index: 0;
+  padding: 50px;
 }
 
 .fank-feature-logo:before {
@@ -1020,7 +1044,7 @@ p.fank-installation-steps-desc {
 .fank-feature-title {
   font-weight: 600;
   font-size: 29px;
-  line-height: 44px;
+  line-height: 1.5;
   color: #7701ae;
   margin-top: 50px;
   margin-bottom: 9px;
@@ -1031,7 +1055,7 @@ p.fank-installation-steps-desc {
   margin-bottom: 0;
   font-weight: 500;
   font-size: 23px;
-  line-height: 34px;
+  line-height: 1.47;
   text-align: center;
   color: #2c2400;
 }
@@ -1039,14 +1063,158 @@ p.fank-installation-steps-desc {
 /* - // _ENDS > GREAT FEATURE SECTION STYLES < SHB // - */
 
 /* - // _BEGIN > EVENTS SECTION STYLES < SHB // - */
+
 /* - // _ENDS > EVENTS SECTION STYLES < SHB // - */
 
 /* - // _BEGIN > FANTASY KHILADI SECTION STYLES < SHB // - */
 /* - // _ENDS > FANTASY KHILADI SECTION STYLES < SHB // - */
 
 /* - // _BEGIN > FAQ WITH PARTNER SECTION STYLES < SHB // - */
-/* - // _ENDS > FAQ WITH PARTNER SECTION STYLES < SHB // - */
+.fank-brand-section {
+  background-color: var(--color-white);
+  position: relative;
+}
 
+.fank-brand-section:before,
+.fank-brand-section:after {
+  -webkit-clip-path: polygon(0% 0%, 92.5% 0%, 100% 50%, 92.5% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 92.5% 0%, 100% 50%, 92.5% 100%, 0% 100%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.fank-brand-section:before {
+  width: 40%;
+  background-color: #f3dcff;
+  z-index: 0;
+}
+
+.fank-brand-section:after {
+  width: calc(40% - 20px);
+  background-color: #f8eaff;
+  z-index: 1;
+}
+
+.fank-brand-flex-items {
+  display: flex;
+  align-items: center;
+}
+
+.fank-brand-flex-header {
+  z-index: 2;
+  padding: 24px 0;
+}
+
+.fank-brand-flex-header .fank-section-title span {
+  color: #7701ae;
+}
+
+.fank-brand-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  z-index: 2;
+  margin-left: auto;
+}
+
+.fank-brand-placeholder {
+  width: 100%;
+  max-width: 175px;
+}
+
+.fank-faq-section {
+  background-color: #faf5ff;
+  padding: 56px 0;
+}
+
+.fank-faq-section .fank-section-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 56px;
+}
+
+.fank-brand-flex-header .fank-section-title,
+.fank-faq-section .fank-section-title span {
+  color: #00aef0;
+}
+
+.fank-accordion {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  cursor: pointer;
+  padding: 18px 80px 18px 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  transition: 0.4s;
+  border-radius: 10px;
+  position: relative;
+}
+
+.fank-accordion-wrapper:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.fank-accordion.active {
+  border-radius: 10px 10px 0 0;
+}
+
+.fank-accordion:after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none'%3E%3Cpath fill='%23697689' d='M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z' opacity='.4'%3E%3C/path%3E%3Cpath fill='%23697689' d='M12 15.01c-.19 0-.38-.07-.53-.22l-3.53-3.53a.754.754 0 010-1.06c.29-.29.77-.29 1.06 0l3 3 3-3c.29-.29.77-.29 1.06 0 .29.29.29.77 0 1.06l-3.53 3.53c-.15.15-.34.22-.53.22z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  background-position: center;
+  background-size: contain;
+  transform: translateY(-50%);
+  transition: all 0.35s;
+}
+
+.fank-accordion.active:after {
+  transform: translateY(-50%) rotate(180deg);
+  transition: all 0.35s;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 300;
+  margin: 0;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+.fank-accordion.active + .panel {
+  padding: 18px 18px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.panel .simple-list li {
+  line-height: 2;
+}
+
+/* - // _ENDS > FAQ WITH PARTNER SECTION STYLES < SHB // - */
 /* PLAY FANTASY SECTION MODAL // */
 .modal {
   position: fixed;
@@ -1090,21 +1258,21 @@ p.fank-installation-steps-desc {
   transform: scale(1);
   transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
-.play-fantasy-modal .modal-content{
+.play-fantasy-modal .modal-content {
   max-width: 600px;
   width: 100%;
   height: auto;
 }
-.play-fantasy-modal-body{
+.play-fantasy-modal-body {
   height: 400px;
 }
-.w-100{
+.w-100 {
   width: 100%;
 }
-.h-100{
+.h-100 {
   height: 100%;
 }
-.d-none{
+.d-none {
   display: none;
 }
 /* PLAY FANTASY SECTION MODAL // */
