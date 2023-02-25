@@ -149,6 +149,27 @@
     height: 25px;
   }
   /* brij 0 end */
+  /* _BEGIN > ABOUT US RESPONSIVE < SHB */
+  .fank-amazing-feature-section {
+    margin-top: 50px;
+    padding: 50px 0;
+  }
+
+  .fank-amazing-header {
+    margin-bottom: 80px;
+  }
+
+  /* _ENDS > ABOUT US RESPONSIVE < SHB */
+  /* _BEGIN > CONTACT US RESPONSIVE < SHB */
+  .fank-contact-link-wrapper {
+    padding: 30px;
+  }
+
+  .fank-contact-link-icon {
+    margin-right: 8px;
+  }
+
+  /* _ENDS > CONTACT US RESPONSIVE < SHB */
 }
 
 @media only screen and (max-width: 1439px) {
@@ -220,6 +241,25 @@
   }
 
   /* _ENS > RESPONSIVE STYLES < SHB */
+  /* _BEGIN > CONTACT US RESPONSIVE < SHB */
+
+  .fank-contact-row {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .fank-contact-details,
+  .fank-contact-map {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .map_bind {
+    height: 500px;
+  }
+
+  /* _ENDS > CONTACT US RESPONSIVE < SHB */
 }
 
 @media only screen and (max-width: 1199px) {
@@ -272,6 +312,12 @@
   }
 
   /* brij end */
+  /* _BEGIN > CONTACT US RESPONSIVE < SHB */
+  .fank-contact-us-section {
+    padding: 50px 0;
+  }
+
+  /* _ENDS > CONTACT US RESPONSIVE < SHB */
 }
 
 @media only screen and (max-width: 1023px) {
@@ -462,6 +508,59 @@ max-width: 250px;
     padding: 20px 18px;
   }
   /* brij 0 end */
+  /* _BEGIN > ABOUT US RESPONSIVE < SHB */
+  .fank-about-row {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .fank-about-content,
+  .fank-about-app-image {
+    max-width: 100%;
+  }
+
+  .fank-about-cover {
+    width: 50%;
+    margin: 20px auto 0;
+  }
+
+  .fank-amazing-header {
+    margin-bottom: 50px;
+  }
+
+  .fank-amazing-feature-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* _ENDS > ABOUT US RESPONSIVE < SHB */
+  /* _BEGIN > CONTACT US RESPONSIVE < SHB */
+  .fank-contact-card {
+    border-radius: 16px;
+    padding: 30px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .fank-contact-card::before {
+    width: 0;
+  }
+
+  .fank-contact-form,
+  .fank-contact-link-wrapper {
+    max-width: 100%;
+  }
+
+  .fank-contact-link-wrapper {
+    position: relative;
+    background-color: #2d2d2d;
+    right: unset;
+    top: unset;
+    width: 100%;
+    border-radius: 25px;
+    transform: unset;
+  }
+
+  /* _ENDS > CONTACT US RESPONSIVE < SHB */
 }
 
 @media only screen and (max-width: 575px) {
@@ -589,6 +688,12 @@ max-width: 250px;
     padding: 25px 52px 47px;
   }
   /* brij 0 end */
+   /* _BEGIN > CONTACT US RESPONSIVE < SHB */
+   .fank-contact-link-wrapper {
+    border-radius: 20px;
+  }
+
+  /* _ENDS > CONTACT US RESPONSIVE < SHB */
 }
 
 @media only screen and (max-width: 480px) {
@@ -684,6 +789,40 @@ max-width: 250px;
   }
 
   /* _ENS > RESPONSIVE STYLES < SHB */
+  /* _BEGIN > CONTACT US RESPONSIVE < SHB */
+  .fank-contact-us-section {
+    padding: 20px 0;
+  }
+
+  .fank-contact-card {
+    padding: 16px;
+  }
+
+  .fank-contact-form-header p {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .fank-contact-link-wrapper {
+    border-radius: 16px;
+    padding: 20px;
+  }
+
+  .fank-contact-link-wrapper h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .fank-contact-link-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .fank-contact-link {
+    font-size: 14px;
+  }
+
+  /* _ENDS > CONTACT US RESPONSIVE < SHB */
 }
   /* brij 0 start */
   @media (max-width: 400px){
