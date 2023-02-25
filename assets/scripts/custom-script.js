@@ -134,9 +134,9 @@ for (i = 0; i < acc.length; i++) {
     roundLengths: true,
     loop: true,
     loopAdditionalSlides: 0,
-    // autoplay: {
-    //   delay: 4000,
-    // },
+    autoplay: {
+      delay: 4000,
+    },
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"

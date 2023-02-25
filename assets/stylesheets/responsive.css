@@ -56,7 +56,7 @@
   }
 
   .fank-feature-details {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .fank-brand-grid {
@@ -170,23 +170,35 @@
   }
 
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
+  .fank-hero-cover img {
+    max-width: 700px;
+}
+.fank-hero-heading{
+  font-size: 70px;
+}
+.fank-hero-description{
+  margin-bottom: 50px;
+}
+.download-stats-text, .fank-download-link-group p{
+  font-size: 20px;
 }
 
+.fank-feature-title{
+  font-size: 22px;
+}
+.fank-feature-grid-wrapper {
+  grid-gap: 18px;
+}
+.fank-installation-section .fank-section-sub-title {
+  max-width: 1100px;
+}
+}
 @media only screen and (max-width: 1439px) {
 
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   .fank-section-title {
     font-size: 60px;
   }
-
-  .fank-section-sub-title {
-    font-size: 24px;
-  }
-
-  .fank-installation-section .fank-section-sub-title {
-    max-width: 750px;
-  }
-
   .panel p {
     font-size: 16px;
   }
@@ -258,7 +270,9 @@
   .map_bind {
     height: 500px;
   }
-
+  .fank-installation-steps-grid {
+    grid-gap: 15px;
+}
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
 }
 
@@ -281,11 +295,10 @@
   }
 
   .fank-hero-heading {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .fank-hero-description {
-    font-size: 24px;
     margin-bottom: 30px;
   }
 
@@ -306,25 +319,29 @@
   .play-fantasy-swiper {
     margin-top: 40px;
   }
-
-  .fank-section-sub-title {
-    font-size: 22px;
-  }
-
   /* brij end */
   /* _BEGIN > CONTACT US RESPONSIVE < SHB */
   .fank-contact-us-section {
     padding: 50px 0;
   }
-
+  .fank-hero-cover img {
+    max-width: 600px;
+}
+.fank-download-button{
+  font-size: 22px;
+  max-width: 240px;
+}
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
+  .fank-section-sub-title {
+    font-size: 16px;
+}
 }
 
 @media only screen and (max-width: 1023px) {
 
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   .fank-download-stats-section {
-    --download-items-padding: 40px;
+    --download-items-padding: 30px;
   }
 
   /* _ENS > RESPONSIVE STYLES < SHB */
@@ -341,7 +358,7 @@
   }
 
   .fank-hero-wrapper {
-    grid-template-columns: repeat(1, 1fr);
+    display: block;
     padding: 50px 0;
     text-align: center;
   }
@@ -350,13 +367,10 @@
     align-items: center;
   }
 
-  .fank-download-link-group {
-    display: none;
-  }
 
-  .fank-download-stats:nth-child(2):after {
+  /* .fank-download-stats:nth-child(2):after {
     display: none;
-  }
+  } */
 
   .fank-installation-section {
     padding: 50px 0;
@@ -388,8 +402,21 @@ footer{
 .footer-logo{
 max-width: 250px;
 }
-
+.fank-accordion{
+  font-size: 16px;
+}
+.download-stats-text, .fank-download-link-group p,.panel p {
+  font-size: 14px;
+}
   /* brij end */
+  .fank-feature-logo {
+    width: 170px;
+    height: 170px;
+  }
+  .fank-feature-logo:before{
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -410,15 +437,12 @@ max-width: 250px;
 
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   .fank-hero-heading {
-    font-size: 60px;
+    font-size: 50px;
   }
 
-  .fank-hero-description {
-    font-size: 22px;
-  }
 
   .fank-section-title {
-    font-size: 54px;
+    font-size: 34px;
   }
 
   .download-stats-text,
@@ -444,17 +468,15 @@ max-width: 250px;
     padding: 0 0 0 var(--download-items-padding);
   }
 
-  .fank-section-sub-title {
-    font-size: 20px;
-  }
-
   .fank-installation-steps-card,
   .fank-installation-steps-info-card {
     padding: 16px;
   }
-
+  .fank-feature-title {
+    font-size: 18px;
+}
   .fank-feature-details {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .fank-brand-grid {
@@ -561,6 +583,30 @@ max-width: 250px;
   }
 
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
+  .fank-download-stats-wrapper{
+    flex-wrap: wrap;
+  }
+  .fank-download-link-group{
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .fank-download-stats{
+    padding-right: 0;
+  }
+  .fank-section-sub-title,.fank-installation-steps-desc {
+    font-size: 14px;
+}
+.fank-installation-steps-info-card p{
+  font-size: 12px;
+}
+.fank-feature-logo {
+  width: 130px;
+  height: 130px;
+  padding: 40px;
+}
+.fank-feature-grid-wrapper {
+  grid-gap: 60px 50px;
+}
 }
 
 @media only screen and (max-width: 575px) {
@@ -618,12 +664,6 @@ max-width: 250px;
     grid-gap: 60px 40px;
   }
 
-  .fank-feature-logo {
-    width: 160px;
-    height: 160px;
-    border-radius: 160px;
-    padding: 40px;
-  }
 
   .fank-brand-section:before {
     width: 100%;
@@ -694,6 +734,31 @@ max-width: 250px;
   }
 
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
+  .fank-download-button {
+    font-size: 18px;
+    max-width: 200px;
+    border-radius: 12px;
+  }
+  .fank-hero-cover{
+    margin-top: 25px;
+  }
+  .fank-brand-placeholder {
+    max-width: 90px;
+}
+
+.fank-brand-section {
+  margin-bottom: 160px;
+}
+.fank-feature-header {
+  margin-bottom: 50px;
+}
+.why-we-love-fantasy-khildai-section{
+  padding: 55px 0 40px;
+}
+.fank-download-stats-wrapper{
+  padding: 20px 0;
+}
+.fank-download-stats-col{width: calc(100% / 2);}
 }
 
 @media only screen and (max-width: 480px) {
@@ -727,31 +792,15 @@ max-width: 250px;
 
   .fank-hero-heading,
   .fank-section-title {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .fank-hero-description {
-    font-size: 20px;
+    font-size: 14px;
   }
 
-  .fank-section-sub-title {
-    font-size: 19px;
-  }
 
-  .fank-feature-title {
-    font-size: 28px;
-  }
 
-  .fank-feature-details {
-    font-size: 18px;
-  }
-
-  .fank-feature-logo {
-    width: 140px;
-    height: 140px;
-    border-radius: 140px;
-    padding: 35px;
-  }
 
   .fank-brand-section:before,
   .fank-brand-section:after {
@@ -763,13 +812,8 @@ max-width: 250px;
     line-height: 1;
   }
 
-  .fank-brand-placeholder {
-    max-width: 130px;
-  }
 
-  .fank-brand-section {
-    margin-bottom: 200px;
-  }
+
 
   .fank-faq-section {
     padding: 30px 0;
@@ -779,10 +823,7 @@ max-width: 250px;
     margin-bottom: 30px;
   }
 
-  .fank-accordion {
-    padding: 14px 40px 14px 14px;
-    font-size: 18px;
-  }
+ 
 
   .fank-accordion.active+.panel {
     padding: 14px 14px;
@@ -823,6 +864,7 @@ max-width: 250px;
   }
 
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
+  
 }
   /* brij 0 start */
   @media (max-width: 400px){

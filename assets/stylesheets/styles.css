@@ -149,7 +149,9 @@ body {
 .mb-0 {
   margin-bottom: 0;
 }
-
+.pl-0{
+  padding-left: 0 !important;
+}
 /* - // _ENDS > PSEUDO DEFAULT STYLES < SHB // - */
 
 /* - // _BEGIN > TEXTS DEFAULT STYLING < SHB // - */
@@ -640,13 +642,15 @@ footer .social-links img {
 }
 
 .fank-hero-wrapper {
-  display: grid;
+  display: flex;
   align-items: center;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
   grid-gap: 16px;
   padding: 68px 0;
 }
-
+.fank-hero-cover img{
+  max-width: 900px;
+}
 .fank-hero-content {
   display: flex;
   flex-direction: column;
@@ -668,11 +672,9 @@ footer .social-links img {
 
 .fank-hero-description {
   font-weight: 400;
-  font-size: 26px;
+  font-size: 16px;
   line-height: 1.5;
   color: #f2d5ff;
-  width: 100%;
-  max-width: 610px;
   margin-bottom: 65px;
 }
 
@@ -690,8 +692,13 @@ footer .social-links img {
   width: 100%;
   max-width: 300px;
   border: none;
+  transition: all 0.3s;
 }
-
+.fank-download-button:hover{
+  background: linear-gradient(180deg, #00000061 0%, #000 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: var(--color-white);
+}
 /* - // _ENDS > HERO SECTION STYLES < SHB // - */
 
 /* - // _BEGIN > DOWNLOAD STATS SECTION STYLES < SHB // - */
@@ -1172,7 +1179,13 @@ footer .social-links img {
   border-radius: 10px;
   position: relative;
 }
-
+.fank-accordion{
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+.fank-accordion:hover{
+  border-color: var(--color-alpha);
+}
 .fank-accordion-wrapper:not(:last-child) {
   margin-bottom: 16px;
 }
