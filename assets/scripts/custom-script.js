@@ -34,6 +34,23 @@ $(document).ready(function () {
   });
 });
 // mobile menu js end
+
+// _BEGIN > ACCORDION SCRIPT < SHB
+var acc = document.getElementsByClassName("fank-accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+// _ENDS > ACCORDION SCRIPT < SHB
 // _BEGIN > PLAY FANTASY SECTION < SHB -->
 var swiper = new Swiper(".play-fantasy-swiper", {
   slidesPerView: 1,
@@ -100,23 +117,6 @@ window.addEventListener("click", windowOnClick);
 // _BEGIN > BUTTON HOVER EFFECT < SH
 
 // _ENDS > BUTTON HOVER EFFECT < SHB
-
-// _BEGIN > ACCORDION SCRIPT < SHB
-var acc = document.getElementsByClassName("fank-accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function () {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-// _ENDS > ACCORDION SCRIPT < SHB
 
 // _BEGIN > WHY WE LOVE FANTASY KHILADI < SHB -->
   // Assign some jquery elements we'll need

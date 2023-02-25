@@ -31,9 +31,6 @@
 @media only screen and (max-width: 1799px) {
 
   /* _BEGIN > RESPONSIVE STYLES < SHB */
-  .fank-section-sub-title {
-    font-size: 26px;
-  }
 
   /* _ENS > RESPONSIVE STYLES < SHB */
   /* brij start */
@@ -109,15 +106,17 @@
     border-radius: 30px 30px 0px 0px;
   }
 
-  .footer-row{
+  .footer-row {
     grid-gap: 30px;
-}
-.footer-col .footer-link li a{
+  }
+
+  .footer-col .footer-link li a {
     font-size: 16px;
-}
-.footer-col .footer-link li:not(:last-child) {
+  }
+
+  .footer-col .footer-link li:not(:last-child) {
     padding-bottom: 10px;
-}
+  }
 
   .fank-section-title {
     font-size: 50px;
@@ -126,34 +125,35 @@
 
   /* brij end */
   /* brij 0 start */
-  .quote-container h5{
+  .quote-container h5 {
     font-size: 19px;
     margin-top: 20px;
   }
-  .quote-container-winner-wrap h4{
+
+  .quote-container-winner-wrap h4 {
     font-size: 22px;
   }
-  .quote-container p{
+
+  .quote-container p {
     font-size: 16px;
   }
 
-.quote-container-winner-wrap{
+  .quote-container-winner-wrap {
     padding: 24px 52px 47px;
-}
+  }
+
   .why-we-love-fk-review .swiper-arrow {
     width: 40px;
     height: 40px;
   }
+
   .why-we-love-fk-review .swiper-arrow svg {
     width: 25px;
     height: 25px;
   }
+
   /* brij 0 end */
   /* _BEGIN > ABOUT US RESPONSIVE < SHB */
-  .fank-amazing-feature-section {
-    margin-top: 50px;
-    padding: 50px 0;
-  }
 
   .fank-amazing-header {
     margin-bottom: 80px;
@@ -172,47 +172,60 @@
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
   .fank-hero-cover img {
     max-width: 700px;
-}
-.fank-hero-heading{
-  font-size: 70px;
-}
-.fank-hero-description{
-  margin-bottom: 50px;
-}
-.download-stats-text, .fank-download-link-group p{
-  font-size: 20px;
+  }
+
+  .fank-hero-heading {
+    font-size: 70px;
+  }
+
+  .fank-hero-description {
+    margin-bottom: 50px;
+  }
+
+  .download-stats-text,
+  .fank-download-link-group p {
+    font-size: 20px;
+  }
+
+  .fank-feature-title {
+    font-size: 22px;
+  }
+
+  .fank-feature-grid-wrapper {
+    grid-gap: 18px;
+  }
+
+  .fank-installation-section .fank-section-sub-title {
+    max-width: 1100px;
+  }
+  .fank-amazing-feature-section{
+    padding: 80px 0 100px;
+  }
 }
 
-.fank-feature-title{
-  font-size: 22px;
-}
-.fank-feature-grid-wrapper {
-  grid-gap: 18px;
-}
-.fank-installation-section .fank-section-sub-title {
-  max-width: 1100px;
-}
-}
 @media only screen and (max-width: 1439px) {
 
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   .fank-section-title {
     font-size: 60px;
   }
+
   .panel p {
     font-size: 16px;
   }
 
   /* _ENS > RESPONSIVE STYLES < SHB */
-   /* brij 0 start */
-   .quote-container-winner-wrap h4{
+  /* brij 0 start */
+  .quote-container-winner-wrap h4 {
     font-size: 18px;
   }
-  .quote-container p{
+
+  .quote-container p {
     font-size: 14px;
     padding: 0;
     margin-top: 0;
   }
+
   /* brij 0 end */
 }
 
@@ -270,9 +283,11 @@
   .map_bind {
     height: 500px;
   }
+
   .fank-installation-steps-grid {
     grid-gap: 15px;
-}
+  }
+
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
 }
 
@@ -310,7 +325,7 @@
   /* brij start */
   .footer-col h6 {
     font-size: 16px;
-}
+  }
 
   .play-fantasy-section {
     padding: 30px 0 50px;
@@ -319,22 +334,26 @@
   .play-fantasy-swiper {
     margin-top: 40px;
   }
+
   /* brij end */
   /* _BEGIN > CONTACT US RESPONSIVE < SHB */
   .fank-contact-us-section {
     padding: 50px 0;
   }
+
   .fank-hero-cover img {
     max-width: 600px;
-}
-.fank-download-button{
-  font-size: 22px;
-  max-width: 240px;
-}
+  }
+
+  .fank-download-button {
+    font-size: 22px;
+    max-width: 240px;
+  }
+
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
   .fank-section-sub-title {
     font-size: 16px;
-}
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -390,34 +409,52 @@
 
   /* _ENS > RESPONSIVE STYLES < SHB */
   /* brij start */
-  .footer-row{
+  .footer-row {
     flex-wrap: wrap;
-}
-.footer-left-col,.footer-right-col {
+  }
+
+  .footer-left-col,
+  .footer-right-col {
     width: 100%;
-}
-footer{
+  }
+
+  footer {
     padding: 30px 0;
-}
-.footer-logo{
-max-width: 250px;
-}
-.fank-accordion{
-  font-size: 16px;
-}
-.download-stats-text, .fank-download-link-group p,.panel p {
-  font-size: 14px;
-}
+  }
+
+  .footer-logo {
+    max-width: 250px;
+  }
+
+  .fank-accordion {
+    font-size: 16px;
+  }
+
+  .download-stats-text,
+  .fank-download-link-group p,
+  .panel p {
+    font-size: 14px;
+  }
+
   /* brij end */
   .fank-feature-logo {
     width: 170px;
     height: 170px;
   }
-  .fank-feature-logo:before{
+
+  .fank-feature-logo:before {
     width: calc(100% + 30px);
     height: calc(100% + 30px);
   }
+
+  /* _BEGIN > RESPONSIVE ABOUT PAGE STYLES < SHB */
+  .fank-amazing-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* _ENDS > RESPONSIVE ABOUT PAGE STYLES < SHB */
 }
+
 
 @media only screen and (min-width: 768px) {
 
@@ -472,9 +509,11 @@ max-width: 250px;
   .fank-installation-steps-info-card {
     padding: 16px;
   }
+
   .fank-feature-title {
     font-size: 18px;
-}
+  }
+
   .fank-feature-details {
     font-size: 14px;
   }
@@ -511,13 +550,15 @@ max-width: 250px;
   /* brij start */
   footer .social-links {
     grid-gap: 10px;
-} 
-.sub-footer-section h5{
+  }
+
+  .sub-footer-section h5 {
     margin-bottom: 20px;
-}
-.sub-footer-section{
+  }
+
+  .sub-footer-section {
     padding: 30px 0;
-}
+  }
 
   /* 
   .fank-section-title {
@@ -525,15 +566,15 @@ max-width: 250px;
   } */
 
   /* brij end */
-   /* brij 0 start */
-   .quote-container{
+  /* brij 0 start */
+  .quote-container {
     padding: 20px 18px;
   }
+
   /* brij 0 end */
   /* _BEGIN > ABOUT US RESPONSIVE < SHB */
   .fank-about-row {
     flex-direction: column;
-    margin-top: 20px;
   }
 
   .fank-about-content,
@@ -542,7 +583,7 @@ max-width: 250px;
   }
 
   .fank-about-cover {
-    width: 50%;
+    width: 70%;
     margin: 20px auto 0;
   }
 
@@ -583,61 +624,78 @@ max-width: 250px;
   }
 
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
-  .fank-download-stats-wrapper{
+  .fank-download-stats-wrapper {
     flex-wrap: wrap;
   }
-  .fank-download-link-group{
+
+  .fank-download-link-group {
     padding-left: 0;
     margin-top: 25px;
   }
-  .fank-download-stats{
+
+  .fank-download-stats {
     padding-right: 0;
   }
-  .fank-section-sub-title,.fank-installation-steps-desc {
+
+  .fank-section-sub-title,
+  .fank-installation-steps-desc,
+  .fank-contact-form-header p,.rng-certificate-section p {
     font-size: 14px;
-}
-.fank-installation-steps-info-card p{
-  font-size: 12px;
-}
-.fank-feature-logo {
-  width: 130px;
-  height: 130px;
-  padding: 40px;
-}
-.fank-feature-grid-wrapper {
-  grid-gap: 60px 50px;
-}
+  }
+
+  .fank-installation-steps-info-card p {
+    font-size: 12px;
+  }
+
+  .fank-feature-logo {
+    width: 130px;
+    height: 130px;
+    padding: 40px;
+  }
+
+  .fank-feature-grid-wrapper {
+    grid-gap: 60px 50px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
-  .footer-right-col{
+  .footer-right-col {
     flex-wrap: wrap;
-}
-.footer-right-col .footer-col {
+  }
+
+  .footer-right-col .footer-col {
     width: calc(100% / 2);
-}
-.social-links-col{
+  }
+
+  .social-links-col {
     margin-top: 20px;
-}
-.sub-footer-section {
+  }
+
+  .sub-footer-section {
     padding: 20px 0;
-}
-.sub-footer-section h5{
+  }
+
+  .sub-footer-section h5 {
     font-size: 13px;
     margin-bottom: 10px;
-}
-.sub-footer-section p{
+  }
+
+  .sub-footer-section p {
     font-size: 12px;
-}
-.footer-col h6{
+  }
+
+  .footer-col h6 {
     margin-bottom: 10px;
-}
-.footer-row {
+  }
+
+  .footer-row {
     grid-gap: 0px;
-}
-.footer-col p,.footer-col .footer-link li a{
+  }
+
+  .footer-col p,
+  .footer-col .footer-link li a {
     font-size: 14px;
-}
+  }
 
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   .fank-download-stats-section {
@@ -718,19 +776,34 @@ max-width: 250px;
 
   /* brij end */
   /* brij 0 start */
-  .swiper-button-prev, .swiper-rtl .swiper-button-next{
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
     left: 0;
   }
-  .why-we-love-fk-review .swiper-button-next, .why-we-love-fk-review .swiper-rtl .swiper-button-prev{
+
+  .why-we-love-fk-review .swiper-button-next,
+  .why-we-love-fk-review .swiper-rtl .swiper-button-prev {
     right: 0;
   }
-  .quote-container-winner-wrap{
+
+  .quote-container-winner-wrap {
     padding: 25px 52px 47px;
   }
+
   /* brij 0 end */
-   /* _BEGIN > CONTACT US RESPONSIVE < SHB */
-   .fank-contact-link-wrapper {
+  /* _BEGIN > CONTACT US RESPONSIVE < SHB */
+
+  .fank-about-cover {
+    width: 90%;
+  }
+
+  .fank-contact-link-wrapper {
     border-radius: 20px;
+  }
+
+  .fank-follow-social-link {
+    width: 30px;
+    height: 30px;
   }
 
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
@@ -739,26 +812,48 @@ max-width: 250px;
     max-width: 200px;
     border-radius: 12px;
   }
-  .fank-hero-cover{
+
+  .fank-hero-cover {
     margin-top: 25px;
   }
+
   .fank-brand-placeholder {
     max-width: 90px;
-}
+  }
 
-.fank-brand-section {
-  margin-bottom: 160px;
+  .fank-brand-section {
+    margin-bottom: 160px;
+  }
+
+  .fank-feature-header {
+    margin-bottom: 50px;
+  }
+
+  .why-we-love-fantasy-khildai-section {
+    padding: 55px 0 40px;
+  }
+
+  .fank-download-stats-wrapper {
+    padding: 20px 0;
+  }
+
+  .fank-download-stats-col {
+    width: calc(100% / 2);
+  }
+  .fank-about-content p{
+    font-size: 14px;
+  }
+  .fank-about-content h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .fank-amazing-feature-section {
+    padding: 50px 0 70px;
 }
-.fank-feature-header {
-  margin-bottom: 50px;
+.fank-contact-map h4{
+  font-size: 22px;
 }
-.why-we-love-fantasy-khildai-section{
-  padding: 55px 0 40px;
-}
-.fank-download-stats-wrapper{
-  padding: 20px 0;
-}
-.fank-download-stats-col{width: calc(100% / 2);}
 }
 
 @media only screen and (max-width: 480px) {
@@ -791,7 +886,7 @@ max-width: 250px;
   }
 
   .fank-hero-heading,
-  .fank-section-title {
+  .fank-section-title,.fank-contact-form-header h1 {
     font-size: 30px;
   }
 
@@ -823,7 +918,7 @@ max-width: 250px;
     margin-bottom: 30px;
   }
 
- 
+
 
   .fank-accordion.active+.panel {
     padding: 14px 14px;
@@ -839,19 +934,13 @@ max-width: 250px;
     padding: 16px;
   }
 
-  .fank-contact-form-header p {
-    font-size: 16px;
-    line-height: 1.25;
-  }
-
   .fank-contact-link-wrapper {
     border-radius: 16px;
-    padding: 20px;
+    padding: 30px 20px;
   }
 
   .fank-contact-link-wrapper h2 {
-    font-size: 26px;
-    margin-bottom: 20px;
+    font-size: 22px;
   }
 
   .fank-contact-link-icon {
@@ -864,24 +953,29 @@ max-width: 250px;
   }
 
   /* _ENDS > CONTACT US RESPONSIVE < SHB */
-  
+
 }
-  /* brij 0 start */
-  @media (max-width: 400px){
-    .quote-container-winner-wrap{
-        padding: 27px 52px 47px;
-      }
+
+/* brij 0 start */
+@media (max-width: 400px) {
+  .quote-container-winner-wrap {
+    padding: 27px 52px 47px;
+  }
 }
-  /* brij 0 end */
+
+/* brij 0 end */
 @media only screen and (max-width: 351px) {
+
   /* _BEGIN > RESPONSIVE STYLES < SHB */
   /* _ENS > RESPONSIVE STYLES < SHB */
-    /* brij 0 start */
-    .quote-container-winner-wrap h4 {
-      font-size: 16px;
-      }
-      .quote-container-winner-wrap{
-          padding: 30px 52px 47px;
-      }
-    /* brij 0 end */
+  /* brij 0 start */
+  .quote-container-winner-wrap h4 {
+    font-size: 16px;
+  }
+
+  .quote-container-winner-wrap {
+    padding: 30px 52px 47px;
+  }
+
+  /* brij 0 end */
 }
