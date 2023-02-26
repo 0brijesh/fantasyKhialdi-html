@@ -1920,3 +1920,67 @@ footer .social-links img {
   font-size: 28px;
   font-weight: 500;
 }
+.game-feature-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  align-items: center;
+}
+.game-feature-col {
+  width: calc(100% / 3);
+}
+.game-feature-col h4{
+  font-size: 24px;
+  font-weight: 600;
+  color: #212529;
+  font-family: var(--font-secondary);
+  margin-bottom: 10px;
+}
+.game-feature-col p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+  font-family: var(--font-secondary);
+  margin-bottom: 0;
+}
+.game-feature-col li{
+  list-style: disc;
+  transition: all 0.3s;
+}
+.game-feature-col li:hover h4{
+  color: var(--color-alpha);
+}
+.game-feature-col li:not(:last-child){
+  margin-bottom: 20px;
+}
+.game-feature-img-wrap img{
+  position: relative;
+  left: 40px;
+}
+.all-policy-details-wrap{
+  margin-top: 30px;
+}
+.all-policy-details-wrap h3{
+  font-size: 28px;
+  font-weight: var(--font-secondary);
+}
+.all-policy-details-wrap p,.all-policy-details-wrap li,.all-policy-details-wrap span{
+  font-size: 16px;
+}
+.all-policy-details-wrap li{
+  list-style: disc;
+  font-family: var(--font-secondary);
+}
+.all-policy-details-wrap li:not(:last-child){
+  margin-bottom: 15px;
+}
+span.policy-icon{
+  padding-right: 8px;
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--color-alpha);
+}
+.terms-box {
+  background-color: rgb(143 143 143 / 10%);
+  padding: 20px;
+}

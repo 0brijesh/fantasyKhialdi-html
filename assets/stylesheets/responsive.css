@@ -201,6 +201,10 @@
   .fank-amazing-feature-section{
     padding: 80px 0 100px;
   }
+
+  .game-feature-col h4{
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 1439px) {
@@ -354,6 +358,12 @@
   .fank-section-sub-title {
     font-size: 16px;
   }
+  .game-feature-col h4{
+    font-size: 18px;
+  }
+  .game-feature-col p{
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -365,7 +375,11 @@
 
   /* _ENS > RESPONSIVE STYLES < SHB */
 }
-
+@media (min-width: 992px){
+  .future-timeline {
+    text-align: right;
+  }
+}
 @media only screen and (max-width: 991px) {
   header ul li:not(:last-child) a {
     margin-right: 20px;
@@ -453,9 +467,28 @@
   }
 
   /* _ENDS > RESPONSIVE ABOUT PAGE STYLES < SHB */
+  .game-feature-col {
+    width: calc(100% / 1);
+  }
+  .game-feature-img-wrap img {
+    left: 0;
+    max-width: 400px;
+}
+.game-feature-center-col{order: 1;}
+.game-feature-left-col{
+  order: 2;
+}
+.game-feature-right-col{
+  order: 3;
+}
 }
 
-
+@media (min-width: 768px) and (max-width: 991px){
+  .game-feature-col .future-box{
+    display: flex;
+    justify-content: center;
+  }
+}
 @media only screen and (min-width: 768px) {
 
   .mobile-menu-ico,
@@ -639,7 +672,9 @@
 
   .fank-section-sub-title,
   .fank-installation-steps-desc,
-  .fank-contact-form-header p,.rng-certificate-section p {
+  .fank-contact-form-header p,.rng-certificate-section p,
+  .all-policy-details-wrap p,
+  .all-policy-details-wrap li {
     font-size: 14px;
   }
 
@@ -656,6 +691,18 @@
   .fank-feature-grid-wrapper {
     grid-gap: 60px 50px;
   }
+  .game-feature-img-wrap img {
+    max-width: 100%;
+}
+.section-py {
+  padding: 40px 0;
+}
+.all-policy-details-wrap {
+  margin-top: 20px;
+}
+.all-policy-details-wrap h3{
+  font-size: 22px;
+}
 }
 
 @media only screen and (max-width: 575px) {
@@ -853,6 +900,9 @@
 }
 .fank-contact-map h4{
   font-size: 22px;
+}
+.game-feature-col h4{
+  font-size: 16px;
 }
 }
 
