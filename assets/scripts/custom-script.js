@@ -1,4 +1,4 @@
-// header js start
+// _BEGIN HEADER JS
 $(window).scroll(function () {
   if ($(this).scrollTop() > 0) {
     $("header").addClass("fixed");
@@ -6,8 +6,8 @@ $(window).scroll(function () {
     $("header").removeClass("fixed");
   }
 });
-// header js end
-// mobile menu js start
+// ENDS HEADER JS
+// _BEGIN MOBILE MENU JS
 $(document).ready(function () {
   $(".mobile-menu-ico").click(function () {
     $(".mobile-menu-wrap").addClass("mobile-menu-wrap-show");
@@ -33,8 +33,7 @@ $(document).ready(function () {
     $(".mobile-menu-wrap").removeClass("mobile-menu-wrap-show");
   });
 });
-// mobile menu js end
-
+// _ENDS MOBILE MENU JS
 // _BEGIN > ACCORDION SCRIPT < SHB
 var acc = document.getElementsByClassName("fank-accordion");
 var i;
@@ -113,10 +112,6 @@ trigger.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
 // _BEGIN > PLAY FANTASY SECTION MODAL < SHB -->
-
-// _BEGIN > BUTTON HOVER EFFECT < SH
-
-// _ENDS > BUTTON HOVER EFFECT < SHB
 
 // _BEGIN > WHY WE LOVE FANTASY KHILADI < SHB -->
   // Assign some jquery elements we'll need

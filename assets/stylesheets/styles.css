@@ -1,4 +1,4 @@
-/* - // _BEGIN > ROOT CSS VARIABLES < SHB // - */
+/* - // _BEGIN > ROOT CSS VARIABLES < CSS // - */
 :root {
   /* FONTS */
   --font-primary: "Mouse Memoirs";
@@ -9,13 +9,6 @@
   --color-white: #ffffff;
   --color-alpha: #7501ac;
   --color-bravo: #353535;
-  /* --color-clash: ;
-    --color-delta: ;
-    --color-earth: ;
-    --color-flash: ;
-    --color-galen: ;
-    --color-happy: ;
-    --color-india: ; */
 
   /* LINK COLORS */
   --link-color: #7501ac;
@@ -31,9 +24,9 @@
   --scrollbar-thumb-hover: #828282;
 }
 
-/* - // _ENDS > ROOT CSS VARIABLES < SHB // - */
+/* - // _ENDS > ROOT CSS VARIABLES < CSS // - */
 
-/* - // _BEGIN > TYPOGRAPHY < SHB // - */
+/* - // _BEGIN > TYPOGRAPHY < CSS // - */
 @font-face {
   font-family: "Mouse Memoirs";
   src: url("../fonts/MouseMemoirs-Regular.eot");
@@ -82,9 +75,9 @@
   font-display: swap;
 }
 
-/* - // _ENDS > TYPOGRAPHY < SHB // - */
+/* - // _ENDS > TYPOGRAPHY < CSS // - */
 
-/* - // _BEGIN > RESET DEFAULT STYLES < SHB // - */
+/* - // _BEGIN > RESET DEFAULT STYLES < CSS // - */
 * {
   outline: none !important;
 }
@@ -107,7 +100,7 @@ body {
   background-color: #FAF5FF;
 }
 
-/* - // _BEGIN > PSEUDO DEFAULT STYLES < SHB // - */
+/* - // _BEGIN > PSEUDO DEFAULT STYLES < CSS // - */
 ::-moz-focus-inner {
   border: 0 solid transparent;
 }
@@ -166,9 +159,9 @@ hr {
 .section-py{
   padding: 50px 0;
 }
-/* - // _ENDS > PSEUDO DEFAULT STYLES < SHB // - */
+/* - // _ENDS > PSEUDO DEFAULT STYLES < CSS // - */
 
-/* - // _BEGIN > TEXTS DEFAULT STYLING < SHB // - */
+/* - // _BEGIN > TEXTS DEFAULT STYLING < CSS // - */
 body h1,
 body h2,
 body h3,
@@ -198,9 +191,9 @@ body p {
   text-transform: uppercase !important;
 }
 
-/* - // _ENDS > TEXTS DEFAULT STYLING < SHB // - */
+/* - // _ENDS > TEXTS DEFAULT STYLING < CSS // - */
 
-/* - // _BEGIN > FORM CONTROL STYLES < SHB // - */
+/* - // _BEGIN > FORM CONTROL STYLES < CSS // - */
 select,
 button,
 a[href],
@@ -250,9 +243,9 @@ input[type="file"]::-o-file-upload-button {
   cursor: pointer;
 }
 
-/* - // _ENDS > FORM CONTROL STYLES < SHB // - */
+/* - // _ENDS > FORM CONTROL STYLES < CSS // - */
 
-/* - // _BEGIN > BUTTON STYLES < SHB // - */
+/* - // _BEGIN > BUTTON STYLES < CSS // - */
 .button {
   line-height: 1.35;
   color: var(--color-bravo);
@@ -275,9 +268,9 @@ input[type="file"]::-o-file-upload-button {
   user-select: none;
 }
 
-/* - // _ENDS > BUTTON STYLES < SHB // - */
+/* - // _ENDS > BUTTON STYLES < CSS // - */
 
-/* - // _BEGIN > IMAGE STYLES < SHB // - */
+/* - // _BEGIN > IMAGE STYLES < CSS // - */
 img {
   margin: 0 auto;
   max-width: 100%;
@@ -312,9 +305,9 @@ img {
   object-fit: cover;
 }
 
-/* - // _ENDS > IMAGE STYLES < SHB // - */
+/* - // _ENDS > IMAGE STYLES < CSS // - */
 
-/* - // _BEGIN > CUSTOM SCROLL STYLES < SHB // - */
+/* - // _BEGIN > CUSTOM SCROLL STYLES < CSS // - */
 .vertical-scroll::-webkit-scrollbar {
   width: 6px;
 }
@@ -344,7 +337,7 @@ img {
   background: var(--scrollbar-thumb-hover);
 }
 
-/* - // _ENDS > CUSTOM SCROLL STYLES < SHB // - */
+/* - // _ENDS > CUSTOM SCROLL STYLES < CSS // - */
 
 a {
   outline: none;
@@ -441,7 +434,7 @@ li {
   margin-bottom: 0;
 }
 
-/* - // _ENDS > RESET DEFAULT STYLES < SHB // - */
+/* - // _ENDS > RESET DEFAULT STYLES < CSS // - */
 
 /* - // _BEGIN > HEADER STYLES < BRJ // - */
 header {
@@ -541,7 +534,7 @@ header.fixed {
 
 /* - // _ENDS > HEADER STYLES < BRJ // - */
 
-/* - // _BEGIN > FOOTER STYLES < SHB // - */
+/* - // _BEGIN > FOOTER STYLES < CSS // - */
 footer {
   background-color: var(--color-white);
   padding: 50px 0;
@@ -614,7 +607,7 @@ footer .social-links img {
   max-width: 35px;
 }
 
-/* /* - // _ENDS > SUB FOOTER STYLES < SHB // - */
+/* /* - // _ENDS > SUB FOOTER STYLES < CSS // - */
 .sub-footer-section {
   background-color: var(--color-alpha);
   padding: 35px 0;
@@ -644,10 +637,10 @@ footer .social-links img {
   text-align: center;
 }
 
-/* /* - // _ENDS > SUB FOOTER STYLES < SHB // - */
-/* - // _ENDS > FOOTER STYLES < SHB // - */
+/* /* - // _ENDS > SUB FOOTER STYLES < CSS // - */
+/* - // _ENDS > FOOTER STYLES < CSS // - */
 
-/* - // _BEGIN > HERO SECTION STYLES < SHB // - */
+/* - // _BEGIN > HERO SECTION STYLES < CSS // - */
 .fank-hero-section {
   background: url("../images/backgrounds/hero-background.jpg");
   background-position: center;
@@ -717,9 +710,9 @@ footer .social-links img {
   color: var(--color-white);
 }
 
-/* - // _ENDS > HERO SECTION STYLES < SHB // - */
+/* - // _ENDS > HERO SECTION STYLES < CSS // - */
 
-/* - // _BEGIN > DOWNLOAD STATS SECTION STYLES < SHB // - */
+/* - // _BEGIN > DOWNLOAD STATS SECTION STYLES < CSS // - */
 .fank-download-stats-section {
   background: linear-gradient(180deg, #f7b656 0%, #ffe279 100%);
   --download-items-padding: 50px;
@@ -783,9 +776,9 @@ footer .social-links img {
   flex-direction: column;
 }
 
-/* - // _ENDS > DOWNLOAD STATS SECTION STYLES < SHB // - */
+/* - // _ENDS > DOWNLOAD STATS SECTION STYLES < CSS // - */
 
-/* - // _BEGIN > PLAY FANTASY SECTION STYLES < SHB // - */
+/* - // _BEGIN > PLAY FANTASY SECTION STYLES < CSS // - */
 .play-fantasy-section {
   background-color: #faf5ff;
   background-image: url(../images/backgrounds/service-bg.png);
@@ -894,9 +887,9 @@ footer .social-links img {
   max-width: 62px;
 }
 
-/* - // _ENDS > PLAY FANTASY SECTION STYLES < SHB // - */
+/* - // _ENDS > PLAY FANTASY SECTION STYLES < CSS // - */
 
-/* - // _BEGIN > HOW TO INSTALL SECTION STYLES < SHB // - */
+/* - // _BEGIN > HOW TO INSTALL SECTION STYLES < CSS // - */
 .fank-installation-section {
   background: url("../images/backgrounds/install-background.jpg");
   background-position: center;
@@ -1013,9 +1006,9 @@ footer .social-links img {
   color: #29e119;
 }
 
-/* - // _ENDS > HOW TO INSTALL SECTION STYLES < SHB // - */
+/* - // _ENDS > HOW TO INSTALL SECTION STYLES < CSS // - */
 
-/* - // _BEGIN > GREAT FEATURE SECTION STYLES < SHB // - */
+/* - // _BEGIN > GREAT FEATURE SECTION STYLES < CSS // - */
 .fank-feature-section {
   background: url("../images/backgrounds/feature-background.jpg");
   background-position: center;
@@ -1099,16 +1092,16 @@ footer .social-links img {
   color: #2c2400;
 }
 
-/* - // _ENDS > GREAT FEATURE SECTION STYLES < SHB // - */
+/* - // _ENDS > GREAT FEATURE SECTION STYLES < CSS // - */
 
-/* - // _BEGIN > EVENTS SECTION STYLES < SHB // - */
+/* - // _BEGIN > EVENTS SECTION STYLES < CSS // - */
 
-/* - // _ENDS > EVENTS SECTION STYLES < SHB // - */
+/* - // _ENDS > EVENTS SECTION STYLES < CSS // - */
 
-/* - // _BEGIN > FANTASY KHILADI SECTION STYLES < SHB // - */
-/* - // _ENDS > FANTASY KHILADI SECTION STYLES < SHB // - */
+/* - // _BEGIN > FANTASY KHILADI SECTION STYLES < CSS // - */
+/* - // _ENDS > FANTASY KHILADI SECTION STYLES < CSS // - */
 
-/* - // _BEGIN > FAQ WITH PARTNER SECTION STYLES < SHB // - */
+/* - // _BEGIN > FAQ WITH PARTNER SECTION STYLES < CSS // - */
 .fank-brand-section {
   background-color: var(--color-white);
   position: relative;
@@ -1262,8 +1255,8 @@ footer .social-links img {
   line-height: 2;
 }
 
-/* - // _ENDS > FAQ WITH PARTNER SECTION STYLES < SHB // - */
-/* PLAY FANTASY SECTION MODAL // */
+/* - // _ENDS > FAQ WITH PARTNER SECTION STYLES < CSS // - */
+/* // _BEGIN PLAY FANTASY SECTION MODAL // */
 .modal {
   position: fixed;
   left: 0;
@@ -1332,10 +1325,10 @@ footer .social-links img {
 .d-none {
   display: none;
 }
+/* // END PLAY FANTASY SECTION MODAL // */
 
-/* PLAY FANTASY SECTION MODAL // */
 
-/* // _BEGIN > WHY WE LOVE FANTASY KHILADI < SHB */
+/* // _BEGIN > WHY WE LOVE FANTASY KHILADI < CSS */
 .why-we-love-fantasy-khildai-section {
   background-color: #faf5ff;
   background-image: url(../images/backgrounds/ribin-cover.png);
@@ -1498,8 +1491,8 @@ footer .social-links img {
 /* .why-we-love-fantasy-khildai-review-wrap .swiper-slide__content {
   height: 300px;
 } */
-/* // _ENDS > WHY WE LOVE FANTASY KHILADI < SHB --> */
-/* _BEGIN > ABOUT US PAGE STYLES < SHB */
+/* // _ENDS > WHY WE LOVE FANTASY KHILADI < CSS --> */
+/* _BEGIN > ABOUT US PAGE STYLES < CSS */
 .fank-about-row {
   display: flex;
   align-items: flex-start;
@@ -1654,8 +1647,8 @@ footer .social-links img {
 }
 
 
-/* _ENDS > ABOUT US PAGE STYLES < SHB */
-/* _BEGIN > CONTACT US PAGE STYLES < SHB */
+/* _ENDS > ABOUT US PAGE STYLES < CSS */
+/* _BEGIN > CONTACT US PAGE STYLES < CSS */
 .fank-contact-us-section {
   --con-sec-gutter-space: 15px;
   background-color: #eee;
@@ -1911,7 +1904,6 @@ footer .social-links img {
 .map_bind iframe{
   border-radius: 20px 0;
 }
-/* _ENDS > CONTACT US PAGE STYLES < SHB */
 .rng-certificate-section p{
   font-size: 18px;
 }
@@ -1984,3 +1976,4 @@ span.policy-icon{
   background-color: rgb(143 143 143 / 10%);
   padding: 20px;
 }
+/* _ENDS > CONTACT US PAGE STYLES < CSS */
